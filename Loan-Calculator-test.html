@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Billion Loans</title>
+<link href="css/extra.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/animations.css">
+<link rel="stylesheet" type="text/css" href="css/web.css">
+<link rel="stylesheet" type="text/css" href="css/range-slider2.css">
+
+<style type="text/css">
+
+.form-head{
+	box-shadow:0px 14px 56px 0px #00000036;
+	margin-bottom:50px;
+    width: 100%;
+    height: auto;
+    background-color: #fff !important;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    clear: none;
+}
+
+
+.card {
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	margin-top:0px !important;
+}
+
+footer a {
+    padding: 0 2rem !important;
+	}
+footer {
+    margin-top: -20px !important;
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+.form-head{
+	margin-bottom:25px;
+}
+
+footer {
+	display: none;
+}
+
+.applay-btn {
+    top:30px !important
+}
+.btn-warning, .btn-warning:hover, .btn-warning:focus {
+    font-size: 12px !important;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 5px 10px !important;
+}
+.card {
+    font-size: 0.8rem;
+    margin-left:auto;
+}
+
+}
+@media screen and (max-width:360px)
+
+	{
+
+footer a {
+    padding: 0 1rem !important;
+	}
+footer {
+    margin-top: 15px !important;
+}
+}
+
+</style>
+
+</head>
+
+<body class="innerpage">
+
+<div class="wrapper">
+
+  <div class="container-fluid form-head animatedParent animateOnce">
+    <nav class="navbar navbar-expand-md animated fadeIn">
+      <a class="navbar-brand" href="billionloans.html">
+      Expand at md
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <div class="form-inline ml-auto">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Frequently-Asked-Questions.html">
+              FAQ's
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sign-in.html">
+              Signin
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="btn btn-warning btn-lg applay-btn" onclick="location.href = 'https://www.billionloans.com/what-we-offer'"> Apply Now</button>
+    </nav>
+  </div>
+
+
+<div class="container" align="center">
+   <div class="col-xl-12 col-sm-12">
+    <div class="row animatedParent animateOnce right-to-left-path">
+          <div class="col-xl-12 animated fadeInRightShort calculator">
+          <h3>Loan Calculator</h3>
+          <div class="row justify-content-md-center">
+
+
+
+
+
+
+            <div class="col-xl-6 mb-12 animated fadeInLeftShort">
+              <div class="cal-right primary-colors">
+
+              <div class=" cal-tpbtm">
+                <h5 class="m-0">How much money do I need?</h5>
+                <div class="row">
+               <div class="col-md-12 col-12">
+                <div class="row">
+                 <div class="btn-group btn-toggle">
+                  <button class="btn btn-lg btn-primary active"  >IN LAKHS </button>
+                  <button class="btn btn-lg btn-default ">IN CRORES</button>
+                 </div>
+                </div>
+               </div>
+                  <div class="col-md-12 col-12">
+                    <div class="row">
+                      <div class="col-xl-12 text-center"><span class="d-block price-text " id="amount54"></span>
+                      </div>
+                      <div class="col-xl-12">
+                        <div class="price-slider">
+                          <div class="slider-range slider54"></div>
+													<!--<input type="range" min="1" max="10000000" value="50" id="principal">
+													<p>Principal Value: <span id="principal_value"></span></p>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+
+
+
+                <div class=" cal-tpbtm">
+                <h5 class="m-0">How long do I need to take this loan for?</h5>
+                <div class="row">
+               <div class="col-md-12 col-12">
+                <div class="row">
+                 <div class="btn-group btn-toggle">
+                  <button class="btn btn-lg btn-primary active"  >IN MONTHS </button>
+                  <button class="btn btn-lg btn-default ">IN YEAR</button>
+                 </div>
+                </div>
+               </div>
+                  <div class="col-md-12 col-12">
+                    <div class="row">
+                      <div class="col-xl-12 text-center"><span class="d-block price-text " id="amount55" ></span>
+                      </div>
+                      <div class="col-xl-12">
+                        <div class="price-slider">
+                          <div class="slider-range slider55"></div>
+													<!--<input type="range" min="0" max="50" value="50" id="time">
+													<p>Time Value: <span id="time_value"></span></p>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div  class=" cal-tpbtm">
+                <h5 class="m-0">Rate of interest I am willing to pay?</h5>
+                <div class="row">
+                  <div class="col-md-12 col-12">
+                    <div class="row">
+                      <div class="col-xl-12 text-center"> <div class= "principal"> <span class="d-block price-text " id="amount56"  ></span> </div>
+                      </div>
+                      <div class="col-xl-12">
+                        <div class="price-slider">
+                          <div class="slider-range slider56"></div>
+														<!--<button onclick="calculate()">Calculate</button>-->
+													<!--eXTRACODE-->
+													<!--<input type="range" min="0" max="100" value="50" id="principal">
+													<p>Rate Value: <span id="rate_value"></span></p>-->
+
+													<div class="slidecontainer">
+															  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+															  <p>Value: <span id="demo"></span></p>
+														</div>
+														<div class="slidecontainer">
+																  <input type="range" min="1" max="100" value="50" class="slider2" id="myRange2">
+																  <p>Value: <span id="demo2"></span></p>
+																	<p>Value: <span id="demo3"></span></p>
+																	<p>Value: <span id="pt"></span></p>
+															</div>
+														<!--eXTRACODE-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-xl-6 mb-12  animated fadeInLeftShort">
+              <div class="right-cal  cal-left">
+                <div class="cal-heading">
+                 <h5 style="color:#fff; text-align:center !important;">EMI Estimate</h5>
+                </div>
+                  <div class="col-md-12 col-12">
+										<p> Value: <span id ="demo"> </span> </p>
+                   <h2>Rs.23,00,000 @10%</h2>
+                   <p class="pt-2" align="justify">For 16 Months</p>
+
+                    <h1>19,087.32</h1>
+                    <h6><strong>per month</strong></h6>
+
+                    <p class="pt-2" align="center"> Repayment amounts are based on an indicative interest rate corresponding to your selected credit profile and are a guide only. The rate you are offered upon a successful application will depend on your individual circumstances, including your credit score.</p>
+                  </div>
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+         </div>
+      </div>
+     </div>
+
+
+
+
+
+</div>
+<footer>
+  <div class="footer text-center">
+    <a href="Loan-Calculator.html">
+    Loan Calculator
+    </a>
+    <a href="Terms-And-Conditions.html">
+    Terms and conditions
+    </a>
+    <a href="Privacy-And-Security-Policy.html">
+    Privacy policy
+    </a>
+    <a href="Contact-Us.html">
+    Office
+    </a>
+  </div>
+</footer>
+<script src="js/vendor/jquery-slim.min.js"></script>
+<script src="js/vendor/popper.min.js"></script></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/vendor/jquery-ui.min.js"></script>
+<script src="js/web.js"></script>
+<script src="js/extra.js"></script>
+<script type="text/javascript">
+$('.btn-toggle').click(function() {
+    $(this).find('.btn').toggleClass('active');
+
+    if ($(this).find('.btn-primary').length>0) {
+    	$(this).find('.btn').toggleClass('btn-primary');
+    }
+    $(this).find('.btn').toggleClass('btn-default');
+});
+
+$('form').submit(function(){
+  var radioValue = $("input[name='options']:checked").val();
+  if(radioValue){
+     alert("You selected - " + radioValue);
+   };
+    return false;
+});
+console.log('coming');
+$(document).ready(function() {
+
+  $(".slider-range").slider({
+		change:function(event,ui){
+		  alert($(ui.handle).parent('div').attr("class")+" , "+ui.value);
+		}
+	});
+
+});
+</script>
+<script>
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+var output3 = document.getElementById("demo3");
+
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+  output3.innerHTML =	parseInt(output2.innerHTML)+parseInt(this.value) ;
+}
+var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("demo2");
+var output3 = document.getElementById("demo3");
+output2.innerHTML = slider2.value;
+
+slider2.oninput = function() {
+
+  output2.innerHTML = this.value;
+	output3.innerHTML =	parseInt(output.innerHTML)+parseInt(this.value) ;
+}
+/*var principal=document.getElementById("amount54");*/
+var principal=document.getElementById("principal");
+var principal_output=document.getElementById("principal_value");
+principal_output.innerHTML = price-slider.value;
+
+principal.oninput = function() {
+  principal_output.innerHTML = this.value;
+}
+
+var time=document.getElementById("time");
+time_output.innerHTML = price-slider.value;
+
+principal.oninput = function() {
+  time_output.innerHTML = this.value;
+}
+pt=parseInt(this.value)*parseInt(principal_output.innerHTML);
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Sign-in  | Billion Loans</title>
+<link rel="stylesheet" type="text/css" href="css/extra.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/animations.css">
+<link rel="stylesheet" type="text/css" href="css/web.css">
+</head>
+<style type="text/css">
+.justify-content-md-center {
+    padding: 15px 0px !important;
+}
+.form-control, .form-control:hover, .form-control:focus {
+    background-color: #fff !important;
+    border-color: #8ca0b3;
+	color:#3e4c58 !important;
+    box-shadow: none!important;
+	height: 45px !important;
+}
+.checkbox-item label {
+    color: #586cb4;
+}
+
+.checkbox-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    margin: 0px 10px 0px 10px;
+    width: 40px;
+    height: 33px;
+    border: 1px solid #586cb4;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.checkbox-item input[type=checkbox]:checked+label:after {
+    border: 3px solid #586cb4;
+    border-top: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 22px;
+    height: 10px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    content: " ";
+    display: block;
+    background: transparent;
+    transform: rotate(-45deg);
+}
+.forgot {
+    color: #586cb4;
+	font-size:18px;
+}
+
+.sign-account h2{
+	font-size:28px ;
+	font-weight:800;
+	margin:100px 5px 60px 5px  !important;
+	padding:0px !important;
+	color:#586cb4;
+}
+.mrgntb {
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+@media screen and (max-width:420px)
+
+	{
+.sign-account h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 0px 0px 10px !important;
+    padding: 0px !important;
+    color: #586cb4;
+}
+
+.forgot {
+    color: #586cb4;
+    font-size: 14px;
+    margin-top: -15px;
+    padding-right: 10px;
+}
+
+	}
+</style>
+
+<body class="innerpage" style="color:#586cb4;">
+<div class="wrapper ">
+
+  <div class="container-fluid form_head" style="box-shadow:0px 14px 56px 0px #00000036;">
+    <div class="col-lg-12" align="center">
+     <span style="margin: 15px 60px 0px 20px; float:left; "><a href="#"><img src="images/logo_inner.png"  height="auto"/></a></span>
+     <span style="margin: 30px 0px 0px 10px; float:right; "><button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+     Close</button></span>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="sign-account">
+         <div class="col-lg-8 margin_lf_ri">
+          <h2>Sign in to your account</h2>
+        </div>
+        <div class="col-xl-12">
+          <div class="row justify-content-md-center ">
+            <div class="col-xl-10 ">
+              <div id="myCarousel" class="carousel slide mb-4" data-ride="carousel">
+                <!--<ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>-->
+                <div class="container">
+
+                  <div class="col-lg-8 margin_lf_ri">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">ENTER YOUR EMAIL</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                     placeholder="enter_123your@email">
+                      </div>
+                      <div class="form-group">
+                        <label for="example-pass-input">ENTER YOUR PASSWORD</label>
+                        <input type="password" class="form-control" id="example-pass-input" value="" placeholder="PASSWORD">
+                         </div>
+                         <div class="text-right forgot">
+                        <a href="#"> Forgot Password? </a>
+                        </div>
+
+                      <div class="checkbox-item">
+                        <input type="checkbox" name="checkbox" value="" id="checkbox">
+                        <label for="checkbox">I have read and agree to the <b>Terms of services & Privacy Policy</b></label>
+                      </div>
+                    </form><br>
+
+
+
+        <div class="col-xl-12 text-center pb-5 mrgntb ">
+
+          <div class="">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" data-title="Contact Us">
+          CREATE YOUR ACCOUNT</button>
+
+          <!--<div id="myModal" class="modal fade">
+         <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><strong>Please verify your number. Enter the OTP here.</strong></h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                         <label for="enter-OTP" class="control-label" style="color: #616161 !important;">ENTER OTP</label>
+                         <input type="text" class="form-control" id="enter-OTP"
+                         style="border-color: #625c5c80 !important; color:#000 !important;">
+                         <a href="#" style="text-decoration:none !important; color:#39abb8">
+                          <p align="right" style="padding-top:10px;">Resend OTP</p></a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                <button data-dismiss="modal" style="padding:2% 25% !important; border-radius:5px;" type="button" class="btn btn-primary btn-lg">VERIFY NUMBER
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+          </div>
+
+        </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="footer text-center">
+    <a href="Loan-Calculator.html">
+    Loan Calculator
+    </a>
+    <a href="Terms-And-Conditions.html">
+    Terms and conditions
+    </a>
+    <a href="Privacy-And-Security-Policy.html">
+    Privacy policy
+    </a>
+    <a href="Contact-Us.html">
+    Office
+    </a>
+  </div>
+</footer>
+<script src="js/vendor/jquery-slim.min.js"></script>
+<script src="js/web.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
