@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+.icon-Individual{
+	background: url(../images/loan-icons/Individual.jpg) no-repeat;
+}
+.icon-Individual:hover {
+	background: url(../images/loan-icons/Individual_Hover.jpg) no-repeat;
+}
+.icon-Non-Individual{
+	background: url(../images/loan-icons/Non-Individual.jpg)no-repeat;
+}
+.icon-Non-Individual:hover {
+	background: url(../images/loan-icons/Non-Individual_Hover.jpg) no-repeat;
+}
+
+
+
+.lone-types  {
+        background: url(../images/loan-icons/home_loan/lone-types.png) no-repeat;
+
+    }
+.lone-types:hover {
+        background: url(../images/loan-icons/home_loan/lone-types1.png) no-repeat;
+    }
+
+.self-construction-loans  {
+        background: url(../images/loan-icons/home_loan/self-construction-loans.png) no-repeat;
+
+    }
+.self-construction-loans:hover {
+        background: url(../images/loan-icons/home_loan/self-construction-loans1.png) no-repeat;
+    }
+
+.apartment-loans  {
+        background: url(../images/loan-icons/home_loan/apartment-loans.png) no-repeat;
+
+    }
+.apartment-loans:hover {
+        background: url(../images/loan-icons/home_loan/apartment-loans1.png) no-repeat;
+    }
+
+.house-repair-loans {
+        background: url(../images/loan-icons/home_loan/house-repair-loans.png) no-repeat;
+
+    }
+.house-repair-loans:hover {
+        background: url(../images/loan-icons/home_loan/house-repair-loans1.png) no-repeat;
+    }
+	
+	
+/*########## Business Loan Icons ###########*/
+.icon-one {
+	background: url(../images/loan-icons/business_loan/One.jpg) no-repeat;
+}
+.icon-one:hover {
+	background: url(../images/loan-icons/business_loan/One_Hover.jpg) no-repeat;
+}
+.icon-two {
+	background: url(../images/loan-icons/business_loan/Two.jpg) no-repeat;
+}
+.icon-two:hover {
+	background: url(../images/loan-icons/business_loan/Two_Hover.jpg) no-repeat;
+}
+.icon-three {
+	background: url(../images/loan-icons/business_loan/Three.jpg) no-repeat;
+}
+.icon-three:hover {
+	background: url(../images/loan-icons/business_loan/Three_Hover.jpg) no-repeat;
+}
+.icon-four {
+	background: url(../images/loan-icons/business_loan/Four.jpg) no-repeat;
+}
+.icon-four:hover {
+	background: url(../images/loan-icons/business_loan/Four_Hover.jpg) no-repeat;
+}
+.icon-more {
+	background: url(../images/loan-icons/business_loan/More.jpg) no-repeat;
+}
+.icon-more:hover {
+	background: url(../images/loan-icons/business_loan/More_Hover.jpg) no-repeat;
+}
+.icon-none {
+	background: url(../images/loan-icons/business_loan/None-of-the-above.jpg) no-repeat;
+}
+.icon-none:hover {
+	background: url(../images/loan-icons/business_loan/None-of-the-above_Hover.jpg) no-repeat;
+}
+.icon-cande{
+	background: url(../images/loan-icons/business_loan/Construction-and-real-estate.jpg) no-repeat;
+}
+.icon-cande:hover {
+	background: url(../images/loan-icons/business_loan/Construction-and-real-estate_Hover.jpg) no-repeat;
+}
+.icon-Tra-and-war{
+	background: url(../images/loan-icons/business_loan/Transportation-and-warehousing.jpg) no-repeat;
+}
+.icon-Tra-and-war:hover {
+	background: url(../images/loan-icons/business_loan/Transportation-and-warehousing_Hover.jpg) no-repeat;
+}
+.icon-trading{
+	background: url(../images/loan-icons/business_loan/Trading.jpg) no-repeat;
+}
+.icon-trading:hover {
+	background: url(../images/loan-icons/business_loan/Trading_Hover.jpg) no-repeat;
+}
+.icon-manufacturing{
+	background: url(../images/loan-icons/business_loan/Manufacturing.jpg) no-repeat;
+}
+.icon-manufacturing:hover {
+	background: url(../images/loan-icons/business_loan/Manufacturing_Hover.jpg) no-repeat;
+}
+.icon-unread{
+	background:url(../images/loan-icons/business_loan/Unread.jpg) no-repeat;
+}
+.icon-unread:hover {
+	background: url(../images/loan-icons/business_loan/Unread_Hover.jpg) no-repeat;
+}
+.icon-pre-matri{
+	background:url(../images/loan-icons/business_loan/Pre-matriculate.jpg) no-repeat;
+}
+.icon-pre-matri:hover {
+	background: url(../images/loan-icons/business_loan/Pre-matriculate_Hover.jpg) no-repeat;
+}
+.icon-completed-school{
+	background: url(../images/loan-icons/business_loan/Completed-school.jpg) no-repeat;
+}
+.icon-completed-school:hover {
+	background: url(../images/loan-icons/business_loan/Completed-school_Hover.jpg) no-repeat;
+}
+.icon-gradute{
+	background: url(../images/loan-icons/business_loan/Gradute.jpg) no-repeat;
+}
+.icon-gradute:hover {
+	background: url(../images/loan-icons/business_loan/Gradute_Hover.jpg) no-repeat;
+}
+.icon-postgraduate{
+	background: url(../images/loan-icons/business_loan/Postgraduate.jpg) no-repeat;
+}
+.icon-postgraduate:hover {
+	background: url(../images/loan-icons/business_loan/Postgraduate_Hover.jpg) no-repeat;
+}
+.icon-Property{
+	background: url(../images/loan-icons/business_loan/Property.jpg) no-repeat;
+}
+.icon-Property:hover {
+	background: url(../images/loan-icons/business_loan/Property_Hover.jpg)  no-repeat;
+}
+.icon-Receivables{
+	background: url(../images/loan-icons/business_loan/Receivables.jpg) no-repeat;
+}
+.icon-Receivables:hover {
+	background: url(../images/loan-icons/business_loan/Receivables_Hover.jpg)  no-repeat;
+}
+.icon-Machinery{
+	background: url(../images/loan-icons/business_loan/Machinery.jpg) no-repeat;
+}
+.icon-Machinery:hover {
+	background: url(../images/loan-icons/business_loan/Machinery_Hover.jpg)  no-repeat;
+}
+.icon-Personal-guarantee{
+	background: url(../images/loan-icons/business_loan/Personal-guarantee.jpg) no-repeat;
+}
+.icon-Personal-guarantee:hover {
+	background: url(../images/loan-icons/business_loan/Personal-guarantee_Hover.jpg)  no-repeat;
+}
+/*########## END Business Loan Icons ###########*/
+
+
+
+/*##########Education Loan Icons ###########*/
+
+.icon-Parent{
+	background: url(../images/loan-icons/education_loan/Parent.jpg) no-repeat;
+}
+.icon-Parent:hover {
+	background: url(../images/loan-icons/education_loan/Parent_Hover.jpg)  no-repeat;
+}
+.icon-Spouse{
+	background: url(../images/loan-icons/education_loan/Spouse.jpg) no-repeat;
+}
+.icon-Spouse:hover {
+	background: url(../images/loan-icons/education_loan/Spouse_Hover.jpg)  no-repeat;
+}
+.icon-Sibling{
+	background: url(../images/loan-icons/education_loan/Sibling.jpg) no-repeat;
+}
+.icon-Sibling:hover {
+	background: url(../images/loan-icons/education_loan/Sibling_Hover.jpg)  no-repeat;
+}
+.icon-Single{
+	background: url(../images/loan-icons/education_loan/Single.jpg) no-repeat;
+}
+.icon-Single:hover {
+	background: url(../images/loan-icons/education_loan/Single_Hover.jpg) no-repeat;
+}
+.icon-Married{
+	background: url(../images/loan-icons/education_loan/Married.jpg) no-repeat;
+}
+.icon-Married:hover {
+	background: url(../images/loan-icons/education_loan/Married_Hover.jpg) no-repeat;
+}
+.icon-Rented{
+	background: url(../images/loan-icons/education_loan/Rented.jpg) no-repeat;
+}
+.icon-Rented:hover {
+	background: url(../images/loan-icons/education_loan/Rented_Hover.jpg) no-repeat;
+}
+.icon-Own{
+	background: url(../images/loan-icons/education_loan/Own.jpg) no-repeat;
+}
+.icon-Own:hover {
+	background: url(../images/loan-icons/education_loan/Own_Hover.jpg) no-repeat;
+}
+.icon-Property{
+	background: url(../images/loan-icons/education_loan/Property.jpg) no-repeat;
+}
+.icon-Property:hover {
+	background: url(../images/loan-icons/education_loan/Property_Hover.jpg) no-repeat;
+}
+.icon-Gold{
+	background: url(../images/loan-icons/education_loan/Gold.jpg) no-repeat;
+}
+.icon-Gold:hover {
+	background: url(../images/loan-icons/education_loan/Gold_Hover.jpg) no-repeat;
+}
+.icon-Investments{
+	background: url(../images/loan-icons/education_loan/Investments.jpg) no-repeat;
+}
+.icon-Investments:hover {
+	background: url(../images/loan-icons/education_loan/Investments_Hover.jpg) no-repeat;
+}
+.icon-Govt-sector{
+	background: url(../images/loan-icons/education_loan/Govt-sector.jpg) no-repeat;
+}
+.icon-Govt-sector:hover {
+	background: url(../images/loan-icons/education_loan/Govt-sector_Hover.jpg) no-repeat;
+}
+.icon-Business{
+	background: url(../images/loan-icons/education_loan/Business.jpg) no-repeat;
+}
+.icon-Business:hover {
+	background: url(../images/loan-icons/education_loan/Business_Hover.jpg) no-repeat;
+}
+.icon-Unorganised-sector{
+	background: url(../images/loan-icons/education_loan/Unorganised-sector.jpg) no-repeat;
+}
+.icon-Unorganised-sector:hover {
+	background: url(../images/loan-icons/education_loan/Unorganised-sector_Hover.jpg) no-repeat;
+}
+.icon-Self-employed{
+	background: url(../images/loan-icons/education_loan/Self-employed.jpg) no-repeat;
+}
+.icon-Self-employed:hover {
+	background: url(../images/loan-icons/education_loan/Self-employed_Hover.jpg) no-repeat;
+}
+/*########## END Education Loan Icons ###########*/
+
+
+/*##########  HOME Loan Icons ###########*/
+.icon-Apartment  {
+        background: url(../images/loan-icons/home_loan/Apartment.png) no-repeat;
+
+    }
+.icon-Apartment:hover {
+        background: url(../images/loan-icons/home_loan/Apartment_Hover.png) no-repeat;
+    }
+.icon-Land  {
+        background: url(../images/loan-icons/home_loan/Land.jpg) no-repeat;
+
+    }
+.icon-Land:hover {
+        background: url(../images/loan-icons/home_loan/Land_Hover.jpg) no-repeat;
+    }
+.icon-Doctorate  {
+        background: url(../images/loan-icons/home_loan/Doctorate.jpg) no-repeat;
+
+    }
+.icon-Doctorate:hover {
+        background: url(../images/loan-icons/home_loan/Doctorate_Hover.jpg) no-repeat;
+    }
+.icon-yes  {
+        background: url(../images/loan-icons/home_loan/yes.jpg) no-repeat;
+
+    }
+.icon-yes:hover {
+        background: url(../images/loan-icons/home_loan/yes_Hover.jpg) no-repeat;
+    }
+.icon-no  {
+        background: url(../images/loan-icons/home_loan/no.jpg) no-repeat;
+
+    }
+.icon-no:hover {
+        background: url(../images/loan-icons/home_loan/no_Hover.jpg) no-repeat;
+    }
+	
+/*########## END HOME Loan Icons ###########*/
